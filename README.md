@@ -1,7 +1,6 @@
-# OCR using raspberrypi
+#OCR using raspberrypi
 
-## Image capture using raspberrypi
-
+##Image capture using raspberrypi
 Using the Raspberry Pi camera and the Python module, picamera, it's a pretty trivial task. This guide will walk you through the process of setting up the camera and writing a Python script to snap a picture.
 
 ## Capture
@@ -20,7 +19,7 @@ For adjusting camera position, focus and page positioning
 
 ```libcamera-hello -t 0 --width 480 --height 640
 ```
-##Page dewarping
+## Page dewarping
 
 Document image dewarping library using a cubic sheet model
 
@@ -64,5 +63,23 @@ _[Work in progress]_
   on splines by Steve Marschner for more details and how a spline can be represented in matrix form.
 - Brief notes on this project are over on [my website](https://doc.spin.systems/page-dewarp)
 
-##OCR using pytesseract
+## OCR using pytesseract
 
+Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
+
+Python-tesseract is a wrapper for Google’s Tesseract-OCR Engine. It is also useful as a stand-alone invocation script to tesseract, as it can read all image types supported by the Pillow and Leptonica imaging libraries, including jpeg, png, gif, bmp, tiff, and others. Additionally, if used as a script, Python-tesseract will print the recognized text instead of writing it to a file.
+
+Pip install pytesseract command-
+```
+pip install pytesseract
+```
+
+Finding ocr output of the captured input
+
+```
+/page-dewarp/results $ python3 ocr.py
+
+The python file needs to be called from directory from results
+```
+
+## Image capture & Ocr needs to be called from two different terminals
