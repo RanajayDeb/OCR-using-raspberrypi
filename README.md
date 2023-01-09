@@ -5,11 +5,14 @@ Using the Raspberry Pi camera and the Python module, picamera, it's a pretty tri
 
 ## Capture
 
-```cd page-dewarp
 ```
-```cd example_input
+cd page-dewarp
 ```
-```python3 test2.py
+```
+cd example_input
+```
+```
+python3 test2.py
 ```
 
 For adjusting camera position, focus and page positioning
