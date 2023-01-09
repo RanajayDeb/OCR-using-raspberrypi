@@ -17,7 +17,8 @@ python3 test2.py
 
 For adjusting camera position, focus and page positioning
 
-```libcamera-hello -t 0 --width 480 --height 640
+```
+libcamera-hello -t 0 --width 480 --height 640
 ```
 ##Page dewarping
 
