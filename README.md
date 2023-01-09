@@ -83,4 +83,5 @@ Finding ocr output of the captured input
 The python file needs to be called from directory from results
 ```
 
-## Image capture & Ocr needs to be called from two different terminals
+NOTE:
+Image capture & Ocr needs to be called from two different terminals
